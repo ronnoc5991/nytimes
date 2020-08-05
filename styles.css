@@ -125,7 +125,7 @@ article h1 {
     padding-bottom: 14px;
 }
 
-article h2 {
+h2 {
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -240,8 +240,26 @@ figcaption p {
     margin-bottom: 15px;;
 }
 
+.large-caption {
+    width: 945px;
+    margin: 0 auto;
+}
+
+.large-caption h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.large-caption p {
+    color: #666666;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+
 .image-container {
     margin: auto;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(4, 230px);
     column-gap: 9px;
@@ -301,6 +319,49 @@ figcaption p {
     grid-column: 4 / 5;
     grid-row: 4 / 5;
 }
+
+.image-authors {
+    position: absolute;
+    transform: translateY(600px);
+}
+
+.image-authors div {
+    width: 20%;
+    height: 10px;
+    border-top: 1px solid black;
+}
+
+.video {
+    margin: 20px auto;
+}
+
+.video-caption {
+    width: 80%;
+}
+
+.video-caption p {
+    padding-left: 5px;
+    display: inline;
+    font-size: 12px;
+    color: #666666;
+}
+
+.image-2 {
+    width: 720px;
+    margin: 0 auto;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+.image-2 img {
+    width: 100%;
+}
+
+.image-2 p {
+    display: inline;
+    font-size: 14px;
+}
+
 
 
 
